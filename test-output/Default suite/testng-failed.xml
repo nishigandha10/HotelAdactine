@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.tests.HomeTest">
+      <class name="com.crm.qa.tests.LoginTests">
         <methods>
+          <include name="Email_URL"/>
+          <include name="Signup_Title"/>
+          <include name="Build1_Title"/>
+          <include name="loginTitle"/>
+          <include name="forgotPass"/>
+          <include name="forgotten_Title"/>
+          <include name="footer_Title"/>
+          <include name="resetPassword"/>
+          <include name="loginPageTitleTest"/>
+          <include name="ValideloginTest"/>
+          <include name="Password_Title"/>
+          <include name="HotelImage2"/>
+          <include name="HotelImage1"/>
+          <include name="HotelImage4"/>
+          <include name="build_title"/>
+          <include name="HotelImage3"/>
+          <include name="validateLOgo1"/>
+          <include name="InvalideloginTest1"/>
+          <include name="Email_Title"/>
+          <include name="Build2_Title"/>
+          <include name="welcome_Title"/>
           <include name="setup"/>
-          <include name="validateCheckInDate"/>
+          <include name="hotel_URL"/>
+          <include name="validateImage"/>
+          <include name="Signup"/>
+          <include name="Build1URL_Title"/>
+          <include name="Username_Title"/>
+          <include name="validateHeaderImg"/>
         </methods>
-      </class> <!-- com.crm.qa.tests.HomeTest -->
+      </class> <!-- com.crm.qa.tests.LoginTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

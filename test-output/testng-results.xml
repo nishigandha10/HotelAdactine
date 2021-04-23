@@ -1,175 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="28" passed="27" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" total="27" passed="27">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-06T08:53:36Z" name="Suite" finished-at="2021-03-06T08:55:37Z" duration-ms="121718">
+  <suite name="Default suite" duration-ms="42586" started-at="2021-03-30T05:09:24Z" finished-at="2021-03-30T05:10:06Z">
     <groups>
     </groups>
-    <test started-at="2021-03-06T08:53:36Z" name="Test" finished-at="2021-03-06T08:55:37Z" duration-ms="121718">
+    <test name="Default test" duration-ms="42586" started-at="2021-03-30T05:09:24Z" finished-at="2021-03-30T05:10:06Z">
       <class name="com.crm.qa.tests.LoginTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:23:36Z" name="setup" finished-at="2021-03-06T14:24:01Z" duration-ms="25116" status="PASS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="setup" is-config="true" duration-ms="23609" started-at="2021-03-30T10:39:24Z" finished-at="2021-03-30T10:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Build1URL_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="Build1URL_Title" finished-at="2021-03-06T14:24:01Z" duration-ms="81" status="PASS">
+        <test-method status="PASS" signature="Build1URL_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="Build1URL_Title" duration-ms="182" started-at="2021-03-30T10:39:47Z" finished-at="2021-03-30T10:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Build1URL_Title -->
-        <test-method signature="Build1_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="Build1_Title" finished-at="2021-03-06T14:24:01Z" duration-ms="36" status="PASS">
+        <test-method status="PASS" signature="Build1_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="Build1_Title" duration-ms="130" started-at="2021-03-30T10:39:47Z" finished-at="2021-03-30T10:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Build1_Title -->
-        <test-method signature="Build2_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="Build2_Title" finished-at="2021-03-06T14:24:01Z" duration-ms="45" status="PASS">
+        <test-method status="PASS" signature="Build2_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="Build2_Title" duration-ms="82" started-at="2021-03-30T10:39:48Z" finished-at="2021-03-30T10:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Build2_Title -->
-        <test-method signature="Email_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="Email_Title" finished-at="2021-03-06T14:24:01Z" duration-ms="34" status="PASS">
+        <test-method status="PASS" signature="Email_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="Email_Title" duration-ms="125" started-at="2021-03-30T10:39:48Z" finished-at="2021-03-30T10:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Email_Title -->
-        <test-method signature="Email_URL()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="Email_URL" finished-at="2021-03-06T14:24:01Z" duration-ms="34" status="PASS">
+        <test-method status="PASS" signature="Email_URL()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="Email_URL" duration-ms="138" started-at="2021-03-30T10:39:48Z" finished-at="2021-03-30T10:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Email_URL -->
-        <test-method signature="HotelImage1()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="HotelImage1" finished-at="2021-03-06T14:24:01Z" duration-ms="29" status="PASS">
+        <test-method status="PASS" signature="HotelImage1()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="HotelImage1" duration-ms="461" started-at="2021-03-30T10:39:48Z" finished-at="2021-03-30T10:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelImage1 -->
-        <test-method signature="HotelImage2()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="HotelImage2" finished-at="2021-03-06T14:24:01Z" duration-ms="30" status="PASS">
+        <test-method status="PASS" signature="HotelImage2()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="HotelImage2" duration-ms="171" started-at="2021-03-30T10:39:48Z" finished-at="2021-03-30T10:39:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelImage2 -->
-        <test-method signature="HotelImage3()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="HotelImage3" finished-at="2021-03-06T14:24:01Z" duration-ms="27" status="PASS">
+        <test-method status="PASS" signature="HotelImage3()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="HotelImage3" duration-ms="111" started-at="2021-03-30T10:39:49Z" finished-at="2021-03-30T10:39:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelImage3 -->
-        <test-method signature="HotelImage4()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="HotelImage4" finished-at="2021-03-06T14:24:01Z" duration-ms="29" status="PASS">
+        <test-method status="PASS" signature="HotelImage4()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="HotelImage4" duration-ms="104" started-at="2021-03-30T10:39:49Z" finished-at="2021-03-30T10:39:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelImage4 -->
-        <test-method signature="InvalideloginTest1()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:01Z" name="InvalideloginTest1" finished-at="2021-03-06T14:24:19Z" duration-ms="17412" status="PASS">
+        <test-method status="PASS" signature="InvalideloginTest1()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="InvalideloginTest1" duration-ms="1479" started-at="2021-03-30T10:39:49Z" finished-at="2021-03-30T10:39:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalideloginTest1 -->
-        <test-method signature="Password_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:19Z" name="Password_Title" finished-at="2021-03-06T14:24:19Z" duration-ms="35" status="PASS">
+        <test-method status="PASS" signature="Password_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="Password_Title" duration-ms="152" started-at="2021-03-30T10:39:50Z" finished-at="2021-03-30T10:39:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Password_Title -->
-        <test-method signature="Signup()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:19Z" name="Signup" finished-at="2021-03-06T14:24:36Z" duration-ms="17336" status="PASS">
+        <test-method status="PASS" signature="Signup()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="Signup" duration-ms="4193" started-at="2021-03-30T10:39:50Z" finished-at="2021-03-30T10:39:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signup -->
-        <test-method signature="Signup_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:36Z" name="Signup_Title" finished-at="2021-03-06T14:24:36Z" duration-ms="59" status="PASS">
+        <test-method status="PASS" signature="Signup_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="Signup_Title" duration-ms="134" started-at="2021-03-30T10:39:55Z" finished-at="2021-03-30T10:39:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signup_Title -->
-        <test-method signature="Username_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:36Z" name="Username_Title" finished-at="2021-03-06T14:24:36Z" duration-ms="32" status="PASS">
+        <test-method status="PASS" signature="Username_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="Username_Title" duration-ms="100" started-at="2021-03-30T10:39:55Z" finished-at="2021-03-30T10:39:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Username_Title -->
-        <test-method signature="ValideloginTest()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:36Z" name="ValideloginTest" finished-at="2021-03-06T14:24:48Z" duration-ms="11731" status="PASS">
+        <test-method status="PASS" signature="ValideloginTest()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="ValideloginTest" duration-ms="3526" started-at="2021-03-30T10:39:55Z" finished-at="2021-03-30T10:39:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValideloginTest -->
-        <test-method signature="build_title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:48Z" name="build_title" finished-at="2021-03-06T14:24:48Z" duration-ms="36" status="PASS">
+        <test-method status="PASS" signature="build_title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="build_title" duration-ms="107" started-at="2021-03-30T10:39:58Z" finished-at="2021-03-30T10:39:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- build_title -->
-        <test-method signature="footer_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:48Z" name="footer_Title" finished-at="2021-03-06T14:24:48Z" duration-ms="32" status="PASS">
+        <test-method status="PASS" signature="footer_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="footer_Title" duration-ms="100" started-at="2021-03-30T10:39:59Z" finished-at="2021-03-30T10:39:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footer_Title -->
-        <test-method signature="forgotPass()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:48Z" name="forgotPass" finished-at="2021-03-06T14:24:53Z" duration-ms="5416" status="PASS">
+        <test-method status="PASS" signature="forgotPass()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="forgotPass" duration-ms="2991" started-at="2021-03-30T10:39:59Z" finished-at="2021-03-30T10:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPass -->
-        <test-method signature="forgotten_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:53Z" name="forgotten_Title" finished-at="2021-03-06T14:24:53Z" duration-ms="53" status="PASS">
+        <test-method status="PASS" signature="forgotten_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="forgotten_Title" duration-ms="107" started-at="2021-03-30T10:40:02Z" finished-at="2021-03-30T10:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotten_Title -->
-        <test-method signature="hotel_URL()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:53Z" name="hotel_URL" finished-at="2021-03-06T14:24:53Z" duration-ms="33" status="PASS">
+        <test-method status="PASS" signature="hotel_URL()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="hotel_URL" duration-ms="95" started-at="2021-03-30T10:40:02Z" finished-at="2021-03-30T10:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hotel_URL -->
-        <test-method signature="loginPageTitleTest()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:53Z" name="loginPageTitleTest" finished-at="2021-03-06T14:24:53Z" duration-ms="9" status="PASS">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="loginPageTitleTest" duration-ms="22" started-at="2021-03-30T10:40:02Z" finished-at="2021-03-30T10:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="loginTitle()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:53Z" name="loginTitle" finished-at="2021-03-06T14:24:54Z" duration-ms="35" status="PASS">
+        <test-method status="PASS" signature="loginTitle()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="loginTitle" duration-ms="96" started-at="2021-03-30T10:40:02Z" finished-at="2021-03-30T10:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTitle -->
-        <test-method signature="resetPassword()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:54Z" name="resetPassword" finished-at="2021-03-06T14:24:59Z" duration-ms="5441" status="PASS">
+        <test-method status="PASS" signature="resetPassword()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="resetPassword" duration-ms="3110" started-at="2021-03-30T10:40:02Z" finished-at="2021-03-30T10:40:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetPassword -->
-        <test-method signature="validateHeaderImg()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:59Z" name="validateHeaderImg" finished-at="2021-03-06T14:24:59Z" duration-ms="48" status="PASS">
+        <test-method status="PASS" signature="validateHeaderImg()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="validateHeaderImg" duration-ms="113" started-at="2021-03-30T10:40:05Z" finished-at="2021-03-30T10:40:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHeaderImg -->
-        <test-method signature="validateImage()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:59Z" name="validateImage" finished-at="2021-03-06T14:24:59Z" duration-ms="30" status="PASS">
+        <test-method status="PASS" signature="validateImage()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="validateImage" duration-ms="153" started-at="2021-03-30T10:40:05Z" finished-at="2021-03-30T10:40:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateImage -->
-        <test-method signature="validateLOgo1()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:59Z" name="validateLOgo1" finished-at="2021-03-06T14:24:59Z" duration-ms="29" status="PASS">
+        <test-method status="PASS" signature="validateLOgo1()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="validateLOgo1" duration-ms="84" started-at="2021-03-30T10:40:05Z" finished-at="2021-03-30T10:40:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLOgo1 -->
-        <test-method signature="welcome_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:59Z" name="welcome_Title" finished-at="2021-03-06T14:24:59Z" duration-ms="30" status="PASS">
+        <test-method status="PASS" signature="welcome_Title()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="welcome_Title" duration-ms="70" started-at="2021-03-30T10:40:05Z" finished-at="2021-03-30T10:40:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcome_Title -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.tests.LoginTests@3d1cfad4]" started-at="2021-03-06T14:24:59Z" name="teardown" finished-at="2021-03-06T14:25:00Z" duration-ms="601" status="PASS">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.tests.LoginTests@71def8f8]" name="teardown" is-config="true" duration-ms="691" started-at="2021-03-30T10:40:06Z" finished-at="2021-03-30T10:40:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.crm.qa.tests.LoginTests -->
-      <class name="com.crm.qa.tests.ForgotTest">
-        <test-method is-config="true" signature="set()[pri:0, instance:com.crm.qa.tests.ForgotTest@62230c58]" started-at="2021-03-06T14:25:00Z" name="set" finished-at="2021-03-06T14:25:37Z" duration-ms="37147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set -->
-        <test-method signature="GoBack()[pri:0, instance:com.crm.qa.tests.ForgotTest@62230c58]" started-at="2021-03-06T14:25:37Z" name="GoBack" finished-at="2021-03-06T14:25:37Z" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.crm.qa.pages.ForgotPage.GoBackLoginPage(ForgotPage.java:138)
-	at com.crm.qa.tests.ForgotTest.GoBack(ForgotTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GoBack -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.tests.ForgotTest@62230c58]" started-at="2021-03-06T14:25:37Z" name="teardown" finished-at="2021-03-06T14:25:37Z" duration-ms="630" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.crm.qa.tests.ForgotTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
